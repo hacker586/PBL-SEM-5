@@ -1,0 +1,46 @@
+body{
+    /* background-color: #001E6C; */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trade Winds', cursive;
+    background-color: #E1701A;
+}
+h1{
+    color: white;
+}
+.headerMaster{
+    font-size: 6rem;
+}
+button{
+    font-family: 'Trade Winds', cursive;
+    background-color: #E1701A;
+    height: 300opx;
+    width: 300px;
+    font-size: 4rem;
+    border-radius: 25%;
+    margin: 30px;
+    cursor: pointer;
+}
+footer{
+    font-size: 2rem;
+    color: white;
+}
+#container {
+    position: fixed;
+    touch-action: none;
+    z-index: -1;
+}
+.overLapping1{
+    position: relative;
+    z-index: 1;
+    margin-bottom: -570px; 
+}
+.overLapping2{
+    z-index: 1;
+    margin-bottom: -575px;
+}
+.overLapping3{
+    z-index:1;
+    margin-bottom: -63%;
+}
