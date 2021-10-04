@@ -6,7 +6,11 @@ body{
     font-family: 'Trade Winds', cursive;
     background-color: #E1701A;
 }
-h1{
+img{
+    height: 300px;
+    width: 300px;
+}
+h1,h5,p{
     color: white;
 }
 .headerMaster{
@@ -17,10 +21,10 @@ button{
     background-color: #E1701A;
     height: 300opx;
     width: 300px;
-    font-size: 4rem;
+    font-size: 2rem;
     border-radius: 25%;
     margin: 30px;
-    padding: 20px;
+    padding: 1%;
     cursor: pointer;
 }
 footer{
@@ -33,19 +37,19 @@ footer{
     z-index: -1;
 }
 .overLapping1{
-    position: relative;
+    position: fixed;
     z-index: 1;
-    margin-bottom: -570px; 
+    /* margin-bottom: -570px;  */
 }
 .overLapping2{
+    position: fixed;
     z-index: 1;
-    margin-bottom: -575px;
 }
 .overLapping3{
-    z-index:1;
-    margin-bottom: -63%;
+    position: fixed;
+    z-index: 1;
 }
 .overLapping4{
-    z-index:1;
-    margin-bottom: -670px;
+    position: fixed;
+    z-index: 1;
 }
